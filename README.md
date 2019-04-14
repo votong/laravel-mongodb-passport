@@ -1,7 +1,7 @@
 Laravel MongoDB Passport
 ===============
 
-[![Latest Stable Version](http://img.shields.io/github/release/designmynight/laravel-mongodb-passport.svg)](https://packagist.org/packages/designmynight/laravel-mongodb-passport) [![Total Downloads](http://img.shields.io/packagist/dm/designmynight/laravel-mongodb-passport.svg)](https://packagist.org/packages/designmynight/laravel-mongodb-passport)
+[![Latest Stable Version](http://img.shields.io/github/release/votong/laravel-mongodb-passport.svg)](https://packagist.org/packages/votong/laravel-mongodb-passport) [![Total Downloads](http://img.shields.io/packagist/dm/votong/laravel-mongodb-passport.svg)](https://packagist.org/packages/votong/laravel-mongodb-passport)
 
 A service provider to add support for [Laravel Passport](https://github.com/laravel/passport) and [MongoDB](https://github.com/jenssegers/laravel-mongodb).
 
@@ -15,7 +15,7 @@ Installation
 Installation using composer:
 
 ```sh
-composer require designmynight/laravel-mongodb-passport
+composer require votong/laravel-mongodb-passport
 ```
 
 You need to have your `App\User` class extend `VoTong\Mongodb\Auth\User.php` instead of the default `Illuminate\Foundation\Auth\User`. This user class extends larvel-mongodb eloquent user as well as adding all the standard and required authentication and laravel passport traits.
